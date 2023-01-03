@@ -174,7 +174,7 @@ const Contact = () => {
               />
             </label>
             <button
-              className="rounded-md py-2 px-10 mt-2 bg-gray-800 hover:text-white"
+              className="rounded-md py-2 px-10 mt-2 bg-gray-800 text-white hover:bg-white hover:text-gray-800"
               type="submit"
             >
               {!status.submitting

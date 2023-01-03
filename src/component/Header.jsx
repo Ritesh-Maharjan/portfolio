@@ -6,7 +6,7 @@ const Header = () => {
       <div className="w-[90vw] m-auto flex items-center justify-between">
         <div className="flex items-center">
           <h1 className="text-white text-xl border-r-2 border-gray-600 tracking-wider pr-2">
-            Ritesh Maharjan
+            <a href="#about"> Ritesh Maharjan</a>
           </h1>
           <div className="">
             <a href="#project" className="px-4">

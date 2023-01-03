@@ -39,7 +39,7 @@ const Projects = () => {
                   className="w-full h-full object-cover object-center"
                 />
               </div>
-              <div className="text-white">
+              <div className="text-white mt-3">
                 <div className="flex gap-4">
                   <a
                     href={el.github}
