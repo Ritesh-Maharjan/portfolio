@@ -4,7 +4,7 @@ export const project = [
     img: "portfolio.png",
     desc: "This is a portfolio website which showcases the projects that i have built",
     github: "https://github.com/Ritesh-Maharjan/portfolio",
-    live: "https://github.com/Ritesh-Maharjan/jobhunt",
+    live: "https://portfolio-six-rho-25.vercel.app/",
   },
   {
     id: 2,
