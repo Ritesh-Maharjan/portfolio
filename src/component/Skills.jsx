@@ -21,13 +21,13 @@ const Skills = () => {
         <h1 className="my-5 text-white text-xl lg:text-3xl font-semibold">
           Skills and Technologies
         </h1>
-        <p className="w-[50vw] text-center text-lg">
+        <p className="w-full lg:w-[50vw] text-center text-lg">
           Here are few technologies that I have been working with.
         </p>
       </div>
 
       <div className="w-[90vw] m-auto my-10">
-        <ul className="grid grid-cols-4">
+        <ul className="grid grid-cols-3 lg:grid-cols-4">
           <li className="flex ">
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -94,7 +94,7 @@ const Skills = () => {
                 d="M4.5 12.75l6 6 9-13.5"
               />
             </svg>
-            <span className="ml-3">Tailwind CSS</span>
+            <span className="ml-3">Tailwind</span>
           </li>
           <li className="flex ">
             <svg

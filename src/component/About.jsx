@@ -2,8 +2,8 @@ import React from "react";
 
 const About = () => {
   return (
-    <div className=" h-[70vh] flex" id="about">
-      <div className="flex-1 flex flex-col mx-10 justify-center">
+    <div className="h-[55vh] lg:h-[70vh] flex" id="about">
+      <div className="flex-1 flex flex-col mx-10 justify-center ">
         <h1 className="my-2 text-xl font-semibold text-white tracking-wider lg:text-3xl">
           Hi, I'm Ritesh. <br />I love to build amazing apps.
         </h1>
@@ -13,7 +13,7 @@ const About = () => {
           <button className="rounded-md py-2 px-5 bg-gray-800">See my Projects</button>
         </div>
       </div>
-      <div className="flex-1">
+      <div className="hidden md:block flex-1">
         <img src="/coding.svg" alt="background" className="object-cover " />
       </div>
     </div>

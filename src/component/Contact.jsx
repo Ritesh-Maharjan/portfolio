@@ -71,7 +71,7 @@ const Contact = () => {
 
   return (
     <div id="contact">
-      <h1 className="text-white text-xl lg:text-3xl font-semibold text-center">
+      <h1 className="text-white text-xl md:text-3xl font-semibold text-center">
         Contact Me!!
       </h1>
       <div className="flex w-[90vw] m-auto p-6 flex-col md:flex-row">
@@ -80,14 +80,14 @@ const Contact = () => {
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2604.536760197954!2d-123.03039648434628!3d49.2472713793276!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x548676c2290b5005%3A0x33e42b4c70ecabca!2s4176%20Skeena%20St%2C%20Vancouver%2C%20BC%20V5R%202L3!5e0!3m2!1sen!2sca!4v1672781528253!5m2!1sen!2sca"
             width="600"
             height="450"
-            className="border-0 w-full lg:h-full"
+            className="border-0 w-full md:h-full"
             allowFullScreen=""
             loading="lazy"
             referrerPolicy="no-referrer-when-downgrade"
             title="map"
           >
           </iframe>
-          <div className="absolute bottom-2 left-14 border-2 bg-gray-800 px-4 py-4 rounded-3xl">
+          <div className="relative my-4 text-xs lg:text-base md:absolute md:bottom-2 md:left-14 border-2 bg-gray-800 px-4 py-4 rounded-3xl">
             <h1 className="flex space-between">
               Phone:
               <a className="ml-2 font-semibold" href="tel:7786689615">

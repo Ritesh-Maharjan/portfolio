@@ -19,19 +19,19 @@ const Projects = () => {
             d="M17.25 6.75L22.5 12l-5.25 5.25m-10.5 0L1.5 12l5.25-5.25m7.5-3l-4.5 16.5"
           />
         </svg>
-        <h1 className="my-5 text-white text-xl lg:text-3xl font-semibold">
+        <h1 className="my-5 text-white text-xl md:text-3xl font-semibold">
           Apps that I have built
         </h1>
-        <p className="w-[50vw] text-center text-lg">
+        <p className="w-[90vw] md:w-[50vw] text-center text-md">
           These are some of the projects that i have worked on and have learnt
           various things along the way. If you have any feedback or like what
           you see please do not hesitate to reach out to me.
         </p>
       </div>
-      <div className="grid grid-cols-2 gap-x-20 gap-y-10 w-[90vw] m-auto mt-10">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-x-20 gap-y-10 w-[90vw] m-auto mt-10">
         {project.map((el) => {
           return (
-            <div key={el.id} className=" w-[40vw] h-full overflow-hidden">
+            <div key={el.id} className="w-full md:w-[40vw] h-full overflow-hidden">
               <div className="">
                 <img
                   src={el.img}
@@ -45,7 +45,7 @@ const Projects = () => {
                     href={el.github}
                     target="_blank"
                     rel="noreferrer"
-                    className="rounded-lg border-1 px-3 py-2 bg-gray-800 hover:bg-white hover:text-gray-800"
+                    className="rounded-md border-1 px-3 py-2 bg-gray-800 hover:bg-white hover:text-gray-800"
                   >
                     Github
                   </a>
@@ -53,7 +53,7 @@ const Projects = () => {
                     href={el.live}
                     target="_blank"
                     rel="noreferrer"
-                    className="rounded-lg border-1 px-6 py-2 bg-gray-800 hover:bg-white hover:text-gray-800"
+                    className="rounded-md border-1 px-6 py-2 bg-gray-800 hover:bg-white hover:text-gray-800"
                   >
                     Live
                   </a>
