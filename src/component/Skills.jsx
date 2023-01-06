@@ -27,8 +27,8 @@ const Skills = () => {
       </div>
 
       <div className="w-[90vw] m-auto my-10">
-        <ul className="grid grid-cols-3 lg:grid-cols-4">
-          <li className="flex ">
+        <ul className="flex gap-4 items-center justify-center flex-wrap">
+          <li className="flex">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               fill="none"
@@ -146,23 +146,6 @@ const Skills = () => {
               />
             </svg>
             <span className="ml-3">MongoDB</span>
-          </li>
-          <li className="flex ">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              fill="none"
-              viewBox="0 0 24 24"
-              strokeWidth={1.5}
-              stroke="currentColor"
-              className="w-6 h-6 text-green-500"
-            >
-              <path
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                d="M4.5 12.75l6 6 9-13.5"
-              />
-            </svg>
-            <span className="ml-3">Python</span>
           </li>
           <li className="flex ">
             <svg

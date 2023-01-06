@@ -7,10 +7,18 @@ const About = () => {
         <h1 className="my-2 text-xl font-semibold text-white tracking-wider lg:text-3xl">
           Hi, I'm Ritesh. <br />I love to build amazing apps.
         </h1>
-        <p className="my-9">I like building apps and solving problems. I am a fast learner and am always looking forward to develop my skills whether it be techinical or interpersonal. I am currently looking for web dev jobs.</p>
-        <div>
-          <button className="rounded-md py-2 px-10 mr-4 mb-2 text-white bg-green-500">Hire me!!</button>
-          <button className="rounded-md py-2 px-5 bg-gray-800">See my Projects</button>
+        <p className="my-9">
+          I like building apps and solving problems. I am a fast learner and am
+          always looking forward to develop my skills whether it be techinical
+          or interpersonal. I am currently looking for web dev jobs.
+        </p>
+        <div className="flex">
+          <a href="#contact" className="rounded-md py-1 px-2 md:py-2 md:px-10 mr-4 text-white bg-green-500">
+            Hire me!!
+          </a>
+          <a href="#project" className="rounded-md py-1 px-2 md:py-2 md:px-10 bg-gray-800">
+            See my Projects
+          </a>
         </div>
       </div>
       <div className="hidden md:block flex-1">
