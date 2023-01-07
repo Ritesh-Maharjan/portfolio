@@ -17,7 +17,7 @@ const Header = () => {
               Contact
             </a>
             <a
-              href="https://drive.google.com/uc?export=download&id=1pMIvIOdpuW1IuetBj_-JxFN_TXuG55x4"
+              href="https://docs.google.com/document/d/1c5Zbz9FDxAyE8JLbVGU4NA8K9XKdcrxN/export?format=pdf"
               target="_blank"
               rel="noreferrer"
               download
