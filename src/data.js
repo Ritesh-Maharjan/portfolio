@@ -5,7 +5,7 @@ export const project = [
     img: "jh.png",
     desc: "This is a jobhunt website where comapnies can create, update and delete the job. The job seeker can apply for job and see all the application. They all can delete and update their profile. There is also admin who can delete job and users.",
     github: "https://github.com/Ritesh-Maharjan/jobhunt",
-    live: "https://jobhunt123.herokuapp.com/",
+    live: "https://jobhun.onrender.com/",
     technologiesUsed: ["React", "Redux", "Tailwind", "FormIk", "Yup", "MongoDB", "Node", "ExpressJs", "JWT"]
   },
   {
