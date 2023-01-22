@@ -39,7 +39,7 @@ const Projects = () => {
                 <img
                   src={el.img}
                   alt="project"
-                  className="w-full h-full object-cover object-center"
+                  className="w-full h-[300px]  object-center"
                 />
               </div>
               <div className="text-white mt-3">

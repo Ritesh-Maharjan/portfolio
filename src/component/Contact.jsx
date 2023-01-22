@@ -111,7 +111,7 @@ const Contact = () => {
           <h1>
             <a
               className="flex items-center justify-center"
-              href="https://github.com/Ritesh-Maharjan"
+              href="https://www.linkedin.com/in/ritesh-maharjan-158159263/"
               target="_blank"
               rel="noreferrer"
             >
