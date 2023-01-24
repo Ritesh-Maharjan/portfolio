@@ -62,6 +62,16 @@ const Projects = () => {
                       Live
                     </a>
                   )}
+                  {el.video && (
+                    <a
+                      href={el.video}
+                      target="_blank"
+                      rel="noreferrer"
+                      className="rounded-md border-1 px-6 py-2 bg-gray-800 hover:bg-white hover:text-gray-800"
+                    >
+                      Video
+                    </a>
+                  )}
                 </div>
                 <p className="my-4 h-[20%]">{el.desc}</p>
               </div>

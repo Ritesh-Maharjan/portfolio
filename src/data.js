@@ -1,5 +1,4 @@
 export const project = [
-  
   {
     id: 1,
     title: "ecommerce",
@@ -7,6 +6,7 @@ export const project = [
     desc: "This is an ecommerce website where admin can CRUD products and the user can purchase them. The user can search products as per the product name or can use the filter function to search by categories. User can purchase the product and pay using the stripe payment API",
     github: "https://github.com/Ritesh-Maharjan/ecommerce",
     live: "https://ecommerce-nepal.onrender.com/",
+    video: "https://www.youtube.com/watch?v=-agO0vnnTBg",
     technologiesUsed: [
       "React",
       "Redux",
@@ -28,6 +28,7 @@ export const project = [
     desc: "This is a jobhunt website where comapnies can create, update and delete the job. The job seeker can apply for job and see all the application. They all can delete and update their profile. There is also admin who can delete job and users.",
     github: "https://github.com/Ritesh-Maharjan/jobhunt",
     live: "https://jobhun.onrender.com/",
+    video: "https://www.youtube.com/watch?v=9Lxo3zaLrK0&t=2s",
     technologiesUsed: [
       "React",
       "Redux",
