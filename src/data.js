@@ -6,7 +6,7 @@ export const project = [
     desc: "This is an ecommerce website where admin can CRUD products and the user can purchase them. The user can search products as per the product name or can use the filter function to search by categories. User can purchase the product and pay using the stripe payment API",
     github: "https://github.com/Ritesh-Maharjan/ecommerce",
     live: "https://ecommerce-nepal.onrender.com/",
-    video: "https://www.youtube.com/watch?v=-agO0vnnTBg",
+    video: "https://youtu.be/mN7ny49oTAI",
     technologiesUsed: [
       "React",
       "Redux",
